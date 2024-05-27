@@ -1,0 +1,37 @@
+{
+  "name": "test-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^6.5.2",
+    "@fortawesome/free-solid-svg-icons": "^6.5.2",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "sass": "^1.77.2",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "r3f-pack start",
+    "build": "r3f-pack build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-class-properties": "^7.24.6",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.24.6",
+    "@babel/plugin-transform-numeric-separator": "^7.24.6",
+    "@babel/plugin-transform-optional-chaining": "^7.24.6",
+    "@babel/plugin-transform-private-methods": "^7.24.6",
+    "@babel/plugin-transform-private-property-in-object": "^7.24.6",
+    "r3f-pack": "^2.8.1",
+    "rimraf": "^5.0.7"
+  }
+}
